@@ -1,3 +1,4 @@
+//c-program to add two arrays and store the sum in third array
 #include <stdio.h>
 int main()
 {
