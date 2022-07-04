@@ -19,8 +19,16 @@ int main()
                     }
             for (i = 0; i <= size1 - 1; i++)
                     {
-                    printf("The elements at b[%d] are:\n", i);
+                    printf("\nThe elements at b[%d] are:\n", i);
                     scanf("%d", &b[i]);
+                    }
+                    printf("\nThe elements of first array are:\n");
+                    for(i=0;i<=size1-1;i++){
+                        printf("a[%d]=%d\n", i, a[i]);
+                    }
+                     printf("\nThe elements of second array are:\n");
+                    for(i=0;i<=size1-1;i++){
+                        printf("b[%d]=%d\n", i, b[i]);
                     }
             for(i=0;i<=size1-1;i++)
                 {
@@ -28,7 +36,7 @@ int main()
                 }
                 printf("The sum of array is:\n ");
                 for(i=0;i<=size1-1;i++){
-                    printf("sum[%d]=%d", i, sum[i]);
+                    printf("sum[%d]=%d\n", i, sum[i]);
                 }
         }
     else if(size1!=size2)
